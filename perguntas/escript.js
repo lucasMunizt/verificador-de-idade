@@ -20,7 +20,7 @@ function verificar() {
                 //jovem
                 img.setAttribute('src', 'foto-jovem-m.png')
 
-            } else if (idade > 50 || idade < 65) {
+            } else if (idade > 65) {
                 //adulto
                 img.setAttribute('src', 'foto-adulto-m.png')
 
@@ -44,7 +44,7 @@ function verificar() {
                 img.setAttribute('src', 'foto-jovem-f.png')
 
 
-            } else if (idade < 50) {f
+            } else if (idade < 65) {
                 //adulto
                 img.setAttribute('src', 'foto-adulto-f.png')
 
